@@ -6,20 +6,22 @@ The company wants to anticipate as much as possible scooter movements. Predictiv
 
 ## Code
 There will be two major phases of the project, each with its own sub-phases.
+
 Phase 1: Local pipeline
-`1.1. Scrape data from the web - with the Beautiful Soup library`
-`1.2. Collect data with APIs - working With JSON Data`
-`1.3. Set up a local database on MySQL`
-`1.4. Store data on a local MySQL instance - using SQLAlchemy`
+
+- `1.1. Scrape data from the web - with the Beautiful Soup library`
+- `1.2. Collect data with APIs - working With JSON Data`
+- `1.3. Set up a local database on MySQL`
+- `1.4. Store data on a local MySQL instance - using SQLAlchemy`
 
 Phase 2: Cloud Pipeline
-2.1. Set up an Amazon RDS MySQL Instance
-`2.2. Move scripts to AWS Lambda`
-2.3. Automate the pipeline with EventBridge
+- 2.1. Set up an Amazon RDS MySQL Instance
+- `2.2. Move scripts to AWS Lambda`
+- 2.3. Automate the pipeline with EventBridge
 
 ---
 
-The project has some limitations due to the limited time we had for its completion:
+Due to the time limits, the scoop of project has some limitations:
 - Data pipeline is not connected to a BI tool.
 - A data warehouse or a data lake will not be created.
 - We did not work with big data, data streaming or parallel computing.
