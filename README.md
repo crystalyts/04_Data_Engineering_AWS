@@ -19,10 +19,11 @@ Phase 2: Cloud Pipeline
 - `2.2. Move scripts to AWS Lambda`
 - 2.3. Automate the pipeline with EventBridge
 
----
+## Results
+Real-time data is successfully and automatically downloaded to MySQL instance everyday. 
 
-Due to the time limits, the scoop of project has some limitations:
-- Data pipeline is not connected to a BI tool.
-- A data warehouse or a data lake will not be created.
+Due to time limits, the project ends here.
+- The data pipeline is not connected to a BI tool.
+- A data warehouse or a data lake is not be created.
 - We did not work with big data, data streaming or parallel computing.
 
